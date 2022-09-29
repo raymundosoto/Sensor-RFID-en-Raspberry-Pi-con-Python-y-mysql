@@ -59,6 +59,17 @@ El circuito final debe quedar de la siguiente forma
 
 ![imagen](https://user-images.githubusercontent.com/72757419/193123940-c8ac2846-1aff-4a7a-bd12-325ef62550d3.png)
 
+## Salidas en terminal del funcionamiento del RFID
+
+### Ejemplo de lectura 
+
+![imagen](https://user-images.githubusercontent.com/72757419/193126420-17508cd2-be39-4cbc-a3d6-ad20c4452dae.png)
+
+### Ejemplo de escritura
+
+![imagen](https://user-images.githubusercontent.com/72757419/193126636-35c79045-531a-435a-951e-65068fec19c1.png)
+
+
 
 
 
