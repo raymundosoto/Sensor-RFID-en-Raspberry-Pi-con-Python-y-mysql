@@ -48,6 +48,7 @@ Software para lectura del tag RFID
 - Biblioteca mfrc522
   sudo pip3 install mfrc522
  - [Código de lectura básica del sensor](https://github.com/raymundosoto/Sensor-RFID-en-Raspberry-Pi-con-Python-y-mysql/blob/main/codigo_lectura_basica.py)
+ - [Código de escritura de texto en el sensor](https://github.com/raymundosoto/Sensor-RFID-en-Raspberry-Pi-con-Python-y-mysql/blob/main/script_escritura.py)
 
 ## Esquema de conexión
 
