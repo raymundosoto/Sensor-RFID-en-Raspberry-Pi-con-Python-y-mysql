@@ -30,4 +30,34 @@ Al igual que las etiquetas RFID pasivas, las etiquetas activas tienen un microch
 Las etiquetas activas tienen dos componentes adicionales que las diferencian de las etiquetas pasivas: una fuente de alimentación incorporada y una parte electrónica incorporada.
 La Fuente de Alimentación Incorporada
 
-La fuente de alimentación suele ser una batería, aunque también puede ser solar. La fuente de alimentación incorporada permite que la etiqueta transmita datos a un lector por sí sola, sin necesidad de extraer energía del propio lector como lo hacen las etiquetas pasivas. Además, las etiquetas activas se pueden leer desde distancias de 30 metros o más, mientras que las etiquetas pasivas sólo se pueden leer desde una distancia de hasta 7 metro
+La fuente de alimentación suele ser una batería, aunque también puede ser solar. La fuente de alimentación incorporada permite que la etiqueta transmita datos a un lector por sí sola, sin necesidad de extraer energía del propio lector como lo hacen las etiquetas pasivas. Además, las etiquetas activas se pueden leer desde distancias de 30 metros o más, mientras que las etiquetas pasivas sólo se pueden leer desde una distancia de hasta 7 metros. 
+
+## Material necesario
+
+- Raspberry pi 4
+- Sensor MFRC522
+- Protoboard
+- Cable de conexi+on de raspberry pi de 20 pines
+- Cables jumper
+- Un led
+- En la raspeberry habilitar en protocolo de conexión SPI
+## Software necesario
+
+Software para lectura del tag RFID
+- Python 3.9
+- Biblioteca mfrc522
+  sudo pip3 install mfrc522
+
+## Esquema de conexión
+
+Realiza las siguientes conexiones
+
+![imagen](https://user-images.githubusercontent.com/72757419/193123436-4b4d51b5-e0c8-4c2d-acab-58bf5fdc1aea.png)
+
+El circuito final debe quedar de la siguiente forma
+
+![imagen](https://user-images.githubusercontent.com/72757419/193123940-c8ac2846-1aff-4a7a-bd12-325ef62550d3.png)
+
+
+
+
